@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+
+:root {
+  --color-primary: #0e57a6;
+  --color-primary-dark: #083a72;
+  --color-accent: #ea580c;
+  --color-accent-lime: #bef264;
+  --color-accent-yellow: #fde047;
+  --color-bg-paper: #f6f4ee;
+  --color-card-bg: #ffffff;
+  --color-card-dark: #0f172a;
+  --color-text-main: #0f172a;
+  --color-text-muted: #57534e;
+  --color-line: rgba(15, 23, 42, 0.12);
+  --color-grid: rgba(15, 23, 42, 0.04);
+  --font-sans: "Plus Jakarta Sans", "Poppins", sans-serif;
+  --font-serif: "Instrument Serif", "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-paper);
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+.video-container {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background-color: var(--color-bg-paper);
+  overflow: hidden;
+  font-family: var(--font-sans);
+}
+
+/* Technical Subtle Grid Background */
+.tech-grid-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(to right, var(--color-grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grid) 1px, transparent 1px);
+  background-size: 54px 54px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Highlight Marker Effect */
+.highlighter {
+  position: relative;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0 4px;
+  border-radius: 6px;
+  background-color: var(--color-accent-lime);
+  color: #0f172a;
+}
+
+.highlighter-orange {
+  background-color: #fed7aa;
+  color: #9a3412;
+}
+
+.highlighter-yellow {
+  background-color: #fef08a;
+  color: #854d0e;
+}
+
+/* Editorial Italic Serif */
+.serif-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+/* Monospace Pill Badge */
+.mono-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #57534e;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  padding: 6px 14px;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.mono-tag-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+}
+
+/* 3D Tilted Bento Container */
+.bento-3d-wrapper {
+  transform: perspective(1200px) rotateX(7deg) rotateY(-5deg) rotateZ(1deg);
+  transform-style: preserve-3d;
+  transition: transform 0.2s ease-out;
+}
+
+/* Squircle Bento Card */
+.bento-card {
+  background: var(--color-card-bg);
+  border: 1.5px solid rgba(15, 23, 42, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.bento-card-dark {
+  background: var(--color-card-dark);
+  color: #ffffff;
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Subtitle Bar at bottom (Technical HUD style) */
+.hud-subtitle-wrapper {
+  position: absolute;
+  bottom: 48px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 95;
+  pointer-events: none;
+}
+
+.hud-subtitle-pill {
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  padding: 12px 32px;
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  max-width: 1400px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  letter-spacing: 0.2px;
+}

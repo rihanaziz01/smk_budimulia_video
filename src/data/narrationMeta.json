@@ -1,0 +1,93 @@
+[
+  {
+    "id": "scene01",
+    "title": "Opening",
+    "start_sec": 0,
+    "duration_sec": 8,
+    "text": "Selamat datang di SMK Budi Mulia Karawang. Mencetak generasi unggul, kreatif, dan berkarakter untuk masa depan gemilang."
+  },
+  {
+    "id": "scene02",
+    "title": "A1. Visi",
+    "start_sec": 8,
+    "duration_sec": 8,
+    "text": "Visi kami: mewujudkan sekolah unggulan IPTEK yang mencetak lulusan berakhlak mulia, terampil, mandiri, kompetitif, berjiwa entrepreneur, dan religius."
+  },
+  {
+    "id": "scene03",
+    "title": "A2. Misi",
+    "start_sec": 16,
+    "duration_sec": 8,
+    "text": "Delapan misi kami menguatkan karakter, mengembangkan keterampilan, meningkatkan mutu guru, dan menghadirkan lingkungan belajar yang sehat dan nyaman."
+  },
+  {
+    "id": "scene04",
+    "title": "A3. Tim Manajemen",
+    "start_sec": 24,
+    "duration_sec": 8,
+    "text": "Sekolah kami dipimpin Ibu Teti Tresnawati, bersama para wakil kepala sekolah dan kepala program keahlian yang berdedikasi."
+  },
+  {
+    "id": "scene05",
+    "title": "A4. Perkenalan Guru",
+    "start_sec": 32,
+    "duration_sec": 4,
+    "text": "Didukung guru-guru profesional di bidangnya."
+  },
+  {
+    "id": "scene06",
+    "title": "B. Kelas Industri",
+    "start_sec": 36,
+    "duration_sec": 20,
+    "text": "Melalui Kelas Industri, siswa belajar langsung bersama dunia kerja. Teknik Komputer Jaringan bermitra dengan BNET, Rekayasa Perangkat Lunak dengan Gamelab Indonesia, dan Akuntansi dengan PT. Hunu Osias Padmada Eara. Siswa mendapat pengalaman nyata sesuai kebutuhan industri."
+  },
+  {
+    "id": "scene07",
+    "title": "C. Kegiatan Rutin",
+    "start_sec": 56,
+    "duration_sec": 14,
+    "text": "Setiap hari diawali dengan apel dan pembiasaan pagi, menyambut siswa dengan hangat, dilanjutkan kegiatan belajar mengajar, dan ditutup dengan bersih-bersih bersama, menanamkan disiplin dan kebersamaan."
+  },
+  {
+    "id": "scene08",
+    "title": "D. Eskul dan Olahraga",
+    "start_sec": 70,
+    "duration_sec": 9,
+    "text": "Bakat siswa tumbuh lewat beragam ekstrakurikuler, olahraga, dan senam yang menyehatkan serta membangun kekompakan."
+  },
+  {
+    "id": "scene09",
+    "title": "E. Prestasi dan Lomba",
+    "start_sec": 79,
+    "duration_sec": 8,
+    "text": "Siswa juga terus berprestasi dan mengharumkan nama sekolah di berbagai lomba. Kami bangga atas setiap capaiannya."
+  },
+  {
+    "id": "scene10",
+    "title": "F. Persiapan Akademik dan Kompetensi",
+    "start_sec": 87,
+    "duration_sec": 8,
+    "text": "Kami mempersiapkan siswa menghadapi TKA, menerapkan konsep BMW, serta Uji Kompetensi agar siap bersaing."
+  },
+  {
+    "id": "scene11",
+    "title": "G. Bimbingan Sekolah",
+    "start_sec": 95,
+    "duration_sec": 10,
+    "text": "Bimbingan diberikan untuk TKA dan Ujikom, serta untuk bekerja, melanjutkan studi, maupun berwirausaha, sesuai pilihan masa depan setiap siswa."
+  },
+  {
+    "id": "scene12",
+    "title": "H. Kegiatan Guru",
+    "start_sec": 105,
+    "duration_sec": 7,
+    "text": "Guru pun terus belajar melalui pelatihan, rapat, dan Komunitas Belajar demi mutu pendidikan."
+  },
+  {
+    "id": "scene13",
+    "title": "Closing",
+    "start_sec": 112,
+    "duration_sec": 8,
+    "text": "Bersama SMK Budi Mulia Karawang, wujudkan masa depan gemilang. Terima kasih."
+  }
+]
